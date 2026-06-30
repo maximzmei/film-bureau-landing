@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { NAV_LINKS } from "@/data/content";
 
 export default function Nav() {
