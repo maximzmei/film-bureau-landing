@@ -32,6 +32,7 @@ export default function Nav() {
           className="md:hidden flex flex-col gap-1.5 p-1"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
+          aria-expanded={open}
         >
           <span className={`block w-6 h-px bg-ink transition-transform ${open ? "rotate-45 translate-y-2" : ""}`} />
           <span className={`block w-6 h-px bg-ink transition-opacity ${open ? "opacity-0" : ""}`} />

@@ -1,3 +1,9 @@
+export const HERO = {
+  brand: "film bureau",
+  tagline:
+    "Full-cycle video production. We develop concepts and scripts, shoot, edit, animate, and adapt content for any platform.",
+} as const;
+
 export const NAV_LINKS = ["WORK", "ABOUT", "SERVICES", "CONTACT"] as const;
 
 export type TeamMember = {

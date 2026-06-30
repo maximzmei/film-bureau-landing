@@ -22,9 +22,7 @@ export default function Team() {
                     className="w-full h-full object-cover grayscale"
                   />
                 ) : (
-                  <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500 text-xs">
-                    Photo
-                  </div>
+                  <div className="w-full h-full bg-gray-300" />
                 )}
               </div>
               <div>

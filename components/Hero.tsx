@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { HERO } from "@/data/content";
 
 export default function Hero() {
   return (
@@ -15,12 +16,11 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-2xl">
         <h1 className="text-5xl sm:text-6xl md:text-8xl font-black leading-none tracking-tight">
-          film bureau
+          {HERO.brand}
           <span className="text-accent">.</span>
         </h1>
         <p className="mt-6 text-base md:text-lg text-muted leading-relaxed max-w-md">
-          Full-cycle video production. We develop concepts and scripts, shoot,
-          edit, animate, and adapt content for any platform.
+          {HERO.tagline}
         </p>
       </div>
     </section>

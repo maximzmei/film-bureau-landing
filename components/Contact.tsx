@@ -45,7 +45,7 @@ export default function Contact() {
 
       <div className="border-t border-ink">
         <div className="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between text-xs text-muted">
-          <span>© 2025 Film Bureau</span>
+          <span>© 2026 Film Bureau</span>
           <span className="font-display text-base">film bureau.</span>
         </div>
       </div>
