@@ -14,7 +14,7 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-2xl">
-        <h1 className="text-6xl md:text-8xl font-black leading-none tracking-tight">
+        <h1 className="text-5xl sm:text-6xl md:text-8xl font-black leading-none tracking-tight">
           film bureau
           <span className="text-accent">.</span>
         </h1>
