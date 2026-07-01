@@ -14,12 +14,12 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 max-w-2xl">
-        <h1 className="text-5xl sm:text-6xl md:text-8xl font-black leading-none tracking-tight">
+      <div className="relative z-10">
+        <h1 className="text-5xl sm:text-7xl md:text-9xl font-black leading-none tracking-tight">
           {HERO.brand}
           <span className="text-accent">.</span>
         </h1>
-        <p className="mt-6 text-base md:text-lg text-muted leading-relaxed max-w-md">
+        <p className="mt-8 text-base md:text-lg text-muted leading-relaxed max-w-lg">
           {HERO.tagline}
         </p>
       </div>

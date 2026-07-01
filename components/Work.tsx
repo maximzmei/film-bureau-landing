@@ -4,8 +4,8 @@ import { VIDEOS } from "@/data/content";
 export default function Work() {
   return (
     <section id="work" className="border-t border-ink">
-      <div className="max-w-[1200px] mx-auto px-6 py-16">
-        <h2 className="text-xs font-black tracking-[0.2em] uppercase mb-12">
+      <div className="max-w-[1200px] mx-auto px-6 py-24">
+        <h2 className="text-sm font-black tracking-[0.2em] uppercase mb-16">
           <span className="text-accent">03 /</span> SELECTED WORK
         </h2>
 
@@ -36,8 +36,10 @@ export default function Work() {
                 </div>
               </div>
               <div className="mt-3">
-                <p className="font-black text-sm">{video.title}</p>
-                <p className="text-muted text-xs mt-0.5">{video.description}</p>
+                <p className="text-sm">
+                  <span className="font-black">{video.title}</span>
+                  <span className="text-muted"> | {video.description}</span>
+                </p>
               </div>
             </a>
           ))}
