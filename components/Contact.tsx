@@ -3,8 +3,8 @@ import { CONTACT } from "@/data/content";
 export default function Contact() {
   return (
     <section id="contact" className="border-t-4 border-accent">
-      <div className="max-w-[1100px] mx-auto px-6 py-12">
-        <h2 className="text-xs font-black tracking-[0.2em] uppercase mb-8">
+      <div className="max-w-[1100px] mx-auto px-6 py-24">
+        <h2 className="text-sm font-black tracking-[0.2em] uppercase mb-16">
           <span className="text-accent">05 /</span> CONTACT
         </h2>
 

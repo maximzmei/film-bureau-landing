@@ -8,9 +8,9 @@ export default function Services() {
           <span className="text-accent">02 /</span> SERVICES
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-ink">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {SERVICES.map((service) => (
-            <div key={service.title} className="bg-white p-8 flex flex-col gap-4">
+            <div key={service.title} className="flex flex-col gap-4">
               <span className="text-accent font-black text-lg">{service.number}</span>
               <h3 className="font-black text-xl tracking-tight">{service.title}</h3>
               <p className="text-muted text-sm leading-relaxed">{service.description}</p>
