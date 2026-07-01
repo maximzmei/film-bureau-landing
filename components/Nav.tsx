@@ -8,7 +8,7 @@ export default function Nav() {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-ink">
-      <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-[1100px] mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="text-xl font-black tracking-tight">
           film bureau
           <span className="text-accent">.</span>

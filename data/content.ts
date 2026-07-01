@@ -14,8 +14,7 @@ export type TeamMember = {
 
 export const TEAM: TeamMember[] = [
   { name: "Oleksii", role: "Creative Director, Producer, Sound Designer", photo: "/images/team/oleksii.jpg" },
-  { name: "Anastasia", role: "Director (CEO)", photo: null },
-  { name: "Luka", role: "SMM Specialist", photo: "/images/team/luka.jpg" },
+{ name: "Luka", role: "SMM Specialist", photo: "/images/team/luka.jpg" },
   { name: "Alyona", role: "DoP, Editor", photo: "/images/team/alyona.jpg" },
   { name: "Sofia", role: "1st AD, Project Manager", photo: "/images/team/sofia.jpg" },
   { name: "Evgen", role: "DoP, Editor, Colorist", photo: "/images/team/evgen.jpg" },
@@ -80,12 +79,6 @@ export const VIDEOS: Video[] = [
     title: "Abstract Motion",
     description: "Brand Film",
     url: "https://www.youtube.com/watch?v=s1YrD0Clnx8",
-  },
-  {
-    id: "fNilGrP__78",
-    title: "Digital Pulse",
-    description: "Music Video",
-    url: "https://www.youtube.com/watch?v=fNilGrP__78",
   },
 ];
 

@@ -3,7 +3,7 @@ import { SERVICES } from "@/data/content";
 export default function Services() {
   return (
     <section id="services" className="border-t border-ink">
-      <div className="max-w-[1200px] mx-auto px-6 py-24">
+      <div className="max-w-[1100px] mx-auto px-6 py-24">
         <h2 className="text-sm font-black tracking-[0.2em] uppercase mb-16">
           <span className="text-accent">02 /</span> SERVICES
         </h2>
