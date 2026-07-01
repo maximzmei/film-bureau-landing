@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { HERO } from "@/data/content";
+import FadeIn from "@/components/FadeIn";
 
 export default function Hero() {
   return (
@@ -15,13 +16,17 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 text-center">
-        <h1 className="text-[clamp(2.5rem,_7vw,_6rem)] font-black leading-none tracking-tight">
-          {HERO.brand}
-          <span className="text-accent">.</span>
-        </h1>
-        <p className="mt-8 text-base md:text-lg text-muted leading-relaxed max-w-xl mx-auto">
-          {HERO.tagline}
-        </p>
+        <FadeIn>
+          <h1 className="text-[clamp(2.5rem,_7vw,_6rem)] font-black leading-none tracking-tight">
+            {HERO.brand}
+            <span className="text-accent">.</span>
+          </h1>
+        </FadeIn>
+        <FadeIn delay={150}>
+          <p className="mt-8 text-base md:text-lg text-muted leading-relaxed max-w-xl mx-auto">
+            {HERO.tagline}
+          </p>
+        </FadeIn>
       </div>
     </section>
   );
